@@ -22,7 +22,7 @@ pipeline {
         }
         stage("Deploy to Kubernetes") {
     steps {
-        sh 'kubectl apply -f deployment.yaml'
+        sh 'kubectl apply -f deployment.yml'
         sh 'kubectl apply -f service.yml'
         sh 'kubectl rollout status deployment/devops-demo'
             }
