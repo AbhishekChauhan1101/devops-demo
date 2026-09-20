@@ -20,5 +20,12 @@ pipeline {
                 sh 'docker build -t devops-demo:1.0 .'
             }
         }
+        stage("Deploy to Kubernetes") {
+    steps {
+        sh 'kubectl apply -f deployment.yaml'
+        sh 'kubectl apply -f service.yml'
+        sh 'kubectl rollout status deployment/devops-demo'
+            }
+        }
     }
 }
