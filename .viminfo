@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1789887824,,"wq"
+|2,0,1789891534,,"wq"
 
 # Search String History (newest to oldest):
 
@@ -25,26 +25,52 @@
 # Registers:
 
 # File marks:
-'0  5  11  ~/devops-demo/Dockerfile
-|4,48,5,11,1789887824,"~/devops-demo/Dockerfile"
-'1  7  9  ~/devops-demo/Dockerfile
-|4,49,7,9,1789887610,"~/devops-demo/Dockerfile"
+'0  21  0  ~/devops-demo/Jenkinsfile
+|4,48,21,0,1789891534,"~/devops-demo/Jenkinsfile"
+'1  5  11  ~/devops-demo/Dockerfile
+|4,49,5,11,1789887824,"~/devops-demo/Dockerfile"
 '2  7  9  ~/devops-demo/Dockerfile
 |4,50,7,9,1789887610,"~/devops-demo/Dockerfile"
+'3  7  9  ~/devops-demo/Dockerfile
+|4,51,7,9,1789887610,"~/devops-demo/Dockerfile"
 
 # Jumplist (newest first):
+-'  21  0  ~/devops-demo/Jenkinsfile
+|4,39,21,0,1789891534,"~/devops-demo/Jenkinsfile"
+-'  1  0  ~/devops-demo/Jenkinsfile
+|4,39,1,0,1789891242,"~/devops-demo/Jenkinsfile"
+-'  5  11  ~/devops-demo/Dockerfile
+|4,39,5,11,1789887824,"~/devops-demo/Dockerfile"
 -'  5  11  ~/devops-demo/Dockerfile
 |4,39,5,11,1789887824,"~/devops-demo/Dockerfile"
 -'  7  9  ~/devops-demo/Dockerfile
 |4,39,7,9,1789887814,"~/devops-demo/Dockerfile"
+-'  7  9  ~/devops-demo/Dockerfile
+|4,39,7,9,1789887814,"~/devops-demo/Dockerfile"
+-'  7  9  ~/devops-demo/Dockerfile
+|4,39,7,9,1789887610,"~/devops-demo/Dockerfile"
 -'  7  9  ~/devops-demo/Dockerfile
 |4,39,7,9,1789887610,"~/devops-demo/Dockerfile"
 -'  1  0  ~/devops-demo/Dockerfile
 |4,39,1,0,1789887461,"~/devops-demo/Dockerfile"
 -'  1  0  ~/devops-demo/Dockerfile
 |4,39,1,0,1789887461,"~/devops-demo/Dockerfile"
+-'  1  0  ~/devops-demo/Dockerfile
+|4,39,1,0,1789887461,"~/devops-demo/Dockerfile"
+-'  1  0  ~/devops-demo/Dockerfile
+|4,39,1,0,1789887461,"~/devops-demo/Dockerfile"
 
 # History of marks within files (newest to oldest):
+
+> ~/devops-demo/Jenkinsfile
+	*	1789891533	0
+	"	21	0
+	^	21	1
+	.	21	0
+	+	2	10
+	+	22	3
+	+	4	28
+	+	21	0
 
 > ~/devops-demo/Dockerfile
 	*	1789887823	0
